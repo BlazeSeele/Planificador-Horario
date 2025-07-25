@@ -1,878 +1,877 @@
 {
-"horario":[
- {
-  "nrc": 18597,
-  "nombre_curso": "Bioestadística",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Victoria Miranda",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 3516,
-  "nombre_curso": "Bioestadística",
-  "dia": "JUEVES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Gonzalo Curihuentro",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3519,
-  "nombre_curso": "Bioestadística",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Victoria Miranda",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 3517,
-  "nombre_curso": "Bioestadística",
-  "dia": "LUNES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Victoria Miranda",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3518,
-  "nombre_curso": "Bioestadística",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Javier Olivares",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 3522,
-  "nombre_curso": "Bioestadística",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Victoria Miranda",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 16092,
-  "nombre_curso": "Bioestadística",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "Javier Olivas",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 3521,
-  "nombre_curso": "Bioestadística",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "Juan Curihuentro",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 3516,
-  "nombre_curso": "Bioestadística",
-  "dia": "LUNES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Juan Curihuentro",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3517,
-  "nombre_curso": "Bioestadística",
-  "dia": "LUNES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Victoria Miranda",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 6270,
-  "nombre_curso": "Bioestadística",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Javier Olivas",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 3520,
-  "nombre_curso": "Bioestadística",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Juan Curihuentro",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 16139,
-  "nombre_curso": "Bioestadística",
-  "dia": "LUNES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Javier Olivas",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 16096,
-  "nombre_curso": "Bioestadística",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Victorina Miranda",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 16139,
-  "nombre_curso": "Bioestadística",
-  "dia": "LUNES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Javier Olivas",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3509,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Esteban Flores",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3512,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Esteban Flores",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3509,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Esteban Flores",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3508,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "VIERNES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "María Moran",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3510,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "Victoria Miranda",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3515,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "Esteban Flores",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3513,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "María Moran",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3514,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Esteban Flores",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3510,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "MARTES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Victoria Miranda",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3511,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "VIERNES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "María Moran",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3508,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "VIERNES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "María Moran",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 6255,
-  "nombre_curso": "Calculo diferencial",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Victoria Miranda",
-  "tipo": "Taller"
- },
- {
-  "nrc": 8003,
-  "nombre_curso": "ÉTICA",
-  "dia": "VIERNES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Rodrigo Illarraga",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 8003,
-  "nombre_curso": "ÉTICA",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Rodrigo Illarraga",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 8005,
-  "nombre_curso": "ÉTICA",
-  "dia": "VIERNES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Pablo Follegati",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 8004,
-  "nombre_curso": "ÉTICA",
-  "dia": "VIERNES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Miguel Cid",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 8004,
-  "nombre_curso": "ÉTICA",
-  "dia": "VIERNES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Miguel Cid",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 8005,
-  "nombre_curso": "ÉTICA",
-  "dia": "VIERNES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Pablo Follegati",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3524,
-  "nombre_curso": "Física",
-  "dia": "LUNES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Javier Silva",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3523,
-  "nombre_curso": "Física",
-  "dia": "MARTES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Marcelo Galvez",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3524,
-  "nombre_curso": "Física",
-  "dia": "VIERNES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Javier Silva",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3528,
-  "nombre_curso": "Física",
-  "dia": "MARTES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Marcelo Galvez",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3529,
-  "nombre_curso": "Física",
-  "dia": "JUEVES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "Javier Silva",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3527,
-  "nombre_curso": "Física",
-  "dia": "MARTES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "Javier Silva",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3525,
-  "nombre_curso": "Física",
-  "dia": "VIERNES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "Marcelo Galvez",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3526,
-  "nombre_curso": "Física",
-  "dia": "MARTES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Marcelo Galvez",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3525,
-  "nombre_curso": "Física",
-  "dia": "LUNES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Marcelo Galvez",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 3530,
-  "nombre_curso": "Física",
-  "dia": "JUEVES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Marcelo Galvez",
-  "tipo": "Taller"
- },
- {
-  "nrc": 3523,
-  "nombre_curso": "Física",
-  "dia": "LUNES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Marcelo Galvez",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 4173,
-  "nombre_curso": "Física",
-  "dia": "MARTES",
-  "hora_inicio": "17:30:00",
-  "hora_fin": "18:50:00",
-  "profesor": "Javier Silva",
-  "tipo": "Taller"
- },
- {
-  "nrc": 7994,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8638,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "VIERNES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 15630,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 7995,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8639,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 15631,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "VIERNES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8604,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "MARTES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8640,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 15632,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "VIERNES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8975,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Fabian Capdeville",
-  "tipo": "Taller"
- },
- {
-  "nrc": 8631,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8978,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "VIERNES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Daniel Rojas",
-  "tipo": "Taller"
- },
- {
-  "nrc": 8641,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 15676,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Juan Andrades",
-  "tipo": "Taller"
- },
- {
-  "nrc": 15633,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "VIERNES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8976,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Fabian Capdeville",
-  "tipo": "Taller"
- },
- {
-  "nrc": 8634,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 15635,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "VIERNES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Marcela Pezanni",
-  "tipo": "Taller"
- },
- {
-  "nrc": 8642,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 15674,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "VIERNES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8977,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Fabian Capdeville",
-  "tipo": "Taller"
- },
- {
-  "nrc": 8635,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 15627,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8636,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "17:30:00",
-  "hora_fin": "18:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 15628,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "JUEVES",
-  "hora_inicio": "17:30:00",
-  "hora_fin": "18:50:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 8637,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "LUNES",
-  "hora_inicio": "19:00:00",
-  "hora_fin": "20:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación"
- },
- {
-  "nrc": 15629,
-  "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
-  "dia": "MARTES",
-  "hora_inicio": "19:00:00",
-  "hora_fin": "20:20:00",
-  "profesor": "A definir",
-  "tipo": "Simulación "
- },
- {
-  "nrc": 6971,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Christian Onfray",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 6951,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Silvana Salinas",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 6948,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Raúl Moscoso",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 18571,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "08:00:00",
-  "hora_fin": "09:20:00",
-  "profesor": "Silvana Salinas",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 6971,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Christian Onfray",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 6938,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "VIERNES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Paulina Godoy",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 6951,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Silvana Salinas",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 6948,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Raúl Moscoso",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 18571,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "09:30:00",
-  "hora_fin": "10:50:00",
-  "profesor": "Silvana Salinas",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 17784,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "LUNES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "Silvana Salinas",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 6949,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "11:00:00",
-  "hora_fin": "12:20:00",
-  "profesor": "Paulina Godoy",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 17784,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Silvana Salinas",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 17776,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Silvana Salinas",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 6949,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "12:30:00",
-  "hora_fin": "13:50:00",
-  "profesor": "Paulina Godoy",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 6941,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Patricia Perez",
-  "tipo": "Taller"
- },
- {
-  "nrc": 6937,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "VIERNES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Juan Carlos Santos",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 6950,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "14:30:00",
-  "hora_fin": "15:50:00",
-  "profesor": "Betzabé Acevedo",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 6937,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "LUNES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Juan Carlos Santos",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 6938,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Paulina Godoy",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 17776,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Silvana Salinas",
-  "tipo": "Teoría"
- },
- {
-  "nrc": 6942,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Eduardo Chamorro",
-  "tipo": "Taller"
- },
- {
-  "nrc": 6943,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Patricia Perez",
-  "tipo": "Taller"
- },
- {
-  "nrc": 6944,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MIÉRCOLES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Valeria Gazzano",
-  "tipo": "Taller"
- },
- {
-  "nrc": 6950,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "MARTES",
-  "hora_inicio": "16:00:00",
-  "hora_fin": "17:20:00",
-  "profesor": "Betzabé Acevedo",
-  "tipo": "Laboratorio"
- },
- {
-  "nrc": 17780,
-  "nombre_curso": "QUÍMICA GENERAL II",
-  "dia": "LUNES",
-  "hora_inicio": "17:30:00",
-  "hora_fin": "18:50:00",
-  "profesor": "Patricia Perez",
-  "tipo": "Taller"
- }
-],
-"Hoja1":[]
+    "horario": [
+        {
+            "nrc": 18597,
+            "nombre_curso": "Bioestadística",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Victoria Miranda",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 3516,
+            "nombre_curso": "Bioestadística",
+            "dia": "JUEVES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Gonzalo Curihuentro",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3519,
+            "nombre_curso": "Bioestadística",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Victoria Miranda",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 3517,
+            "nombre_curso": "Bioestadística",
+            "dia": "LUNES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Victoria Miranda",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3518,
+            "nombre_curso": "Bioestadística",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Javier Olivares",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 3522,
+            "nombre_curso": "Bioestadística",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Victoria Miranda",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 16092,
+            "nombre_curso": "Bioestadística",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "Javier Olivas",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 3521,
+            "nombre_curso": "Bioestadística",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "Juan Curihuentro",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 3516,
+            "nombre_curso": "Bioestadística",
+            "dia": "LUNES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Juan Curihuentro",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3517,
+            "nombre_curso": "Bioestadística",
+            "dia": "LUNES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Victoria Miranda",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 6270,
+            "nombre_curso": "Bioestadística",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Javier Olivas",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 3520,
+            "nombre_curso": "Bioestadística",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Juan Curihuentro",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 16139,
+            "nombre_curso": "Bioestadística",
+            "dia": "LUNES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Javier Olivas",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 16096,
+            "nombre_curso": "Bioestadística",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Victorina Miranda",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 16139,
+            "nombre_curso": "Bioestadística",
+            "dia": "LUNES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Javier Olivas",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3509,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Esteban Flores",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3512,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Esteban Flores",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3509,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Esteban Flores",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3508,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "VIERNES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "María Moran",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3510,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "Victoria Miranda",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3515,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "Esteban Flores",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3513,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "María Moran",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3514,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Esteban Flores",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3510,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "MARTES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Victoria Miranda",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3511,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "VIERNES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "María Moran",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3508,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "VIERNES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "María Moran",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 6255,
+            "nombre_curso": "Calculo diferencial",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Victoria Miranda",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 8003,
+            "nombre_curso": "ÉTICA",
+            "dia": "VIERNES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Rodrigo Illarraga",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 8003,
+            "nombre_curso": "ÉTICA",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Rodrigo Illarraga",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 8005,
+            "nombre_curso": "ÉTICA",
+            "dia": "VIERNES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Pablo Follegati",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 8004,
+            "nombre_curso": "ÉTICA",
+            "dia": "VIERNES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Miguel Cid",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 8004,
+            "nombre_curso": "ÉTICA",
+            "dia": "VIERNES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Miguel Cid",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 8005,
+            "nombre_curso": "ÉTICA",
+            "dia": "VIERNES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Pablo Follegati",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3524,
+            "nombre_curso": "Física",
+            "dia": "LUNES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Javier Silva",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3523,
+            "nombre_curso": "Física",
+            "dia": "MARTES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Marcelo Galvez",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3524,
+            "nombre_curso": "Física",
+            "dia": "VIERNES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Javier Silva",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3528,
+            "nombre_curso": "Física",
+            "dia": "MARTES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Marcelo Galvez",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3529,
+            "nombre_curso": "Física",
+            "dia": "JUEVES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "Javier Silva",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3527,
+            "nombre_curso": "Física",
+            "dia": "MARTES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "Javier Silva",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3525,
+            "nombre_curso": "Física",
+            "dia": "VIERNES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "Marcelo Galvez",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3526,
+            "nombre_curso": "Física",
+            "dia": "MARTES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Marcelo Galvez",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3525,
+            "nombre_curso": "Física",
+            "dia": "LUNES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Marcelo Galvez",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 3530,
+            "nombre_curso": "Física",
+            "dia": "JUEVES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Marcelo Galvez",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 3523,
+            "nombre_curso": "Física",
+            "dia": "LUNES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Marcelo Galvez",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 4173,
+            "nombre_curso": "Física",
+            "dia": "MARTES",
+            "hora_inicio": "17:30:00",
+            "hora_fin": "18:50:00",
+            "profesor": "Javier Silva",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 7994,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8638,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "VIERNES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 15630,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 7995,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8639,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 15631,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "VIERNES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8604,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "MARTES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8640,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 15632,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "VIERNES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8975,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Fabian Capdeville",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 8631,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8978,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "VIERNES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Daniel Rojas",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 8641,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 15676,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Juan Andrades",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 15633,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "VIERNES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8976,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Fabian Capdeville",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 8634,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 15635,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "VIERNES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Marcela Pezanni",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 8642,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 15674,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "VIERNES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8977,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Fabian Capdeville",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 8635,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 15627,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8636,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "17:30:00",
+            "hora_fin": "18:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 15628,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "JUEVES",
+            "hora_inicio": "17:30:00",
+            "hora_fin": "18:50:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 8637,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "LUNES",
+            "hora_inicio": "19:00:00",
+            "hora_fin": "20:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación"
+        },
+        {
+            "nrc": 15629,
+            "nombre_curso": "FUNDAMENTOS DEL QUEHACER FARMACÉUTICO",
+            "dia": "MARTES",
+            "hora_inicio": "19:00:00",
+            "hora_fin": "20:20:00",
+            "profesor": "A definir",
+            "tipo": "Simulación "
+        },
+        {
+            "nrc": 6971,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Christian Onfray",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 6951,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Silvana Salinas",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 6948,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Raúl Moscoso",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 18571,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:20:00",
+            "profesor": "Silvana Salinas",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 6971,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Christian Onfray",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 6938,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "VIERNES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Paulina Godoy",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 6951,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Silvana Salinas",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 6948,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Raúl Moscoso",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 18571,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "09:30:00",
+            "hora_fin": "10:50:00",
+            "profesor": "Silvana Salinas",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 17784,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "LUNES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "Silvana Salinas",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 6949,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "11:00:00",
+            "hora_fin": "12:20:00",
+            "profesor": "Paulina Godoy",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 17784,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Silvana Salinas",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 17776,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Silvana Salinas",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 6949,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "12:30:00",
+            "hora_fin": "13:50:00",
+            "profesor": "Paulina Godoy",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 6941,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Patricia Perez",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 6937,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "VIERNES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Juan Carlos Santos",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 6950,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "14:30:00",
+            "hora_fin": "15:50:00",
+            "profesor": "Betzabé Acevedo",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 6937,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "LUNES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Juan Carlos Santos",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 6938,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Paulina Godoy",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 17776,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Silvana Salinas",
+            "tipo": "Teoría"
+        },
+        {
+            "nrc": 6942,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Eduardo Chamorro",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 6943,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Patricia Perez",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 6944,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MIÉRCOLES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Valeria Gazzano",
+            "tipo": "Taller"
+        },
+        {
+            "nrc": 6950,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "MARTES",
+            "hora_inicio": "16:00:00",
+            "hora_fin": "17:20:00",
+            "profesor": "Betzabé Acevedo",
+            "tipo": "Laboratorio"
+        },
+        {
+            "nrc": 17780,
+            "nombre_curso": "QUÍMICA GENERAL II",
+            "dia": "LUNES",
+            "hora_inicio": "17:30:00",
+            "hora_fin": "18:50:00",
+            "profesor": "Patricia Perez",
+            "tipo": "Taller"
+        }
+    ]
 }
