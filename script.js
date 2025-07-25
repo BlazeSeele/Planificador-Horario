@@ -11,15 +11,27 @@ const days = ["LUNES", "MARTES", "MIÉRCOLES", "JUEVES", "VIERNES"];
 
 // Inicialización
 document.addEventListener('DOMContentLoaded', () => {
+    // Mostrar spinner
+    const coursesContainer = document.getElementById('courses-container');
+    coursesContainer.innerHTML = '<div class="loader"></div>';
+    
     // Cargar datos desde el archivo JSON
     fetch('horarios.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error al cargar los datos');
+            }
+            return response.json();
+        })
         .then(data => {
             coursesData = processCourseData(data);
             generateScheduleGrid();
             renderCourses();
         })
-        .catch(error => console.error('Error al cargar los datos:', error));
+        .catch(error => {
+            console.error('Error:', error);
+            coursesContainer.innerHTML = `<div class="error">Error al cargar los datos: ${error.message}</div>`;
+        });
 });
 
 // Procesar los datos del JSON para agrupar por curso y NRC
@@ -28,20 +40,22 @@ function processCourseData(data) {
     
     data.forEach(item => {
         // Crear una clave única para el curso (nombre)
-        if (!coursesMap[item.nombre_curso]) {
-            coursesMap[item.nombre_curso] = {
-                id: item.nombre_curso.toLowerCase().replace(/\s+/g, '-'),
-                name: item.nombre_curso,
+        const courseName = item.nombre_curso.trim();
+        
+        if (!coursesMap[courseName]) {
+            coursesMap[courseName] = {
+                id: courseName.toLowerCase().replace(/\s+/g, '-'),
+                name: courseName,
                 nrcOptions: []
             };
         }
         
         // Buscar si ya existe este NRC
-        const nrcOption = coursesMap[item.nombre_curso].nrcOptions.find(opt => opt.nrc === item.nrc);
+        const nrcOptionIndex = coursesMap[courseName].nrcOptions.findIndex(opt => opt.nrc === item.nrc);
         
-        if (nrcOption) {
+        if (nrcOptionIndex !== -1) {
             // Agregar esta sesión al NRC existente
-            nrcOption.schedule.push({
+            coursesMap[courseName].nrcOptions[nrcOptionIndex].schedule.push({
                 day: item.dia,
                 start: item.hora_inicio,
                 end: item.hora_fin,
@@ -50,7 +64,7 @@ function processCourseData(data) {
             });
         } else {
             // Crear nuevo NRC
-            coursesMap[item.nombre_curso].nrcOptions.push({
+            coursesMap[courseName].nrcOptions.push({
                 nrc: item.nrc,
                 type: item.tipo,
                 schedule: [{
@@ -100,6 +114,11 @@ function renderCourses() {
     const container = document.getElementById('courses-container');
     container.innerHTML = '';
     
+    if (coursesData.length === 0) {
+        container.innerHTML = '<div class="error">No se encontraron cursos disponibles</div>';
+        return;
+    }
+    
     coursesData.forEach(course => {
         const card = createElement('div', 'course-card');
         card.innerHTML = `
@@ -108,13 +127,18 @@ function renderCourses() {
         `;
         
         const nrcContainer = card.querySelector('.nrc-options');
-        course.nrcOptions.forEach(nrcOption => {
-            const nrcEl = createElement('div', 'nrc-option', `NRC ${nrcOption.nrc} (${nrcOption.type})`);
-            nrcEl.dataset.courseId = course.id;
-            nrcEl.dataset.nrc = nrcOption.nrc;
-            nrcEl.onclick = () => selectNrc(course.id, nrcOption.nrc);
-            nrcContainer.appendChild(nrcEl);
-        });
+        
+        if (course.nrcOptions.length === 0) {
+            nrcContainer.innerHTML = '<div>No hay secciones disponibles</div>';
+        } else {
+            course.nrcOptions.forEach(nrcOption => {
+                const nrcEl = createElement('div', 'nrc-option', `NRC ${nrcOption.nrc} (${nrcOption.type})`);
+                nrcEl.dataset.courseId = course.id;
+                nrcEl.dataset.nrc = nrcOption.nrc;
+                nrcEl.onclick = () => selectNrc(course.id, nrcOption.nrc);
+                nrcContainer.appendChild(nrcEl);
+            });
+        }
         
         container.appendChild(card);
     });
@@ -140,6 +164,16 @@ function selectNrc(courseId, nrc) {
     updateCourseSelectionUI();
     updateScheduleGrid();
     checkConflicts();
+    
+    // Resaltar la opción seleccionada
+    document.querySelectorAll('.nrc-option').forEach(option => {
+        option.classList.remove('selected');
+    });
+    
+    const selectedOption = document.querySelector(`.nrc-option[data-course-id="${courseId}"][data-nrc="${nrc}"]`);
+    if (selectedOption) {
+        selectedOption.classList.add('selected');
+    }
 }
 
 // Actualizar la UI de selección de cursos
@@ -154,10 +188,10 @@ function updateCourseSelectionUI() {
         
         courseEl.innerHTML = `
             <button class="remove-btn" data-course-id="${courseId}">×</button>
-            <div>
-                <strong>${course.name}</strong><br>
-                NRC: ${course.nrc} (${course.type})<br>
-                ${course.schedule.map(s => `${s.day}: ${s.start}-${s.end} (${s.classroom})`).join('<br>')}
+            <div class="course-info">
+                <strong>${course.name}</strong>
+                <div>NRC: ${course.nrc} (${course.type})</div>
+                <div>${course.schedule.map(s => `${s.day}: ${s.start}-${s.end} (${s.classroom})`).join('<br>')}</div>
             </div>
         `;
         
@@ -171,6 +205,12 @@ function updateCourseSelectionUI() {
             updateCourseSelectionUI();
             updateScheduleGrid();
             checkConflicts();
+            
+            // Deseleccionar en el panel
+            const nrcOption = document.querySelector(`.nrc-option[data-course-id="${btn.dataset.courseId}"].selected`);
+            if (nrcOption) {
+                nrcOption.classList.remove('selected');
+            }
         };
     });
 }
@@ -218,9 +258,10 @@ function updateScheduleGrid() {
 function checkConflicts() {
     const conflictWarning = document.getElementById('conflict-warning');
     conflictWarning.textContent = '';
+    conflictWarning.classList.remove('active');
     
     const timeMap = {};
-    let hasConflict = false;
+    let conflicts = [];
     
     // Recorrer todos los cursos seleccionados
     Object.values(selectedCourses).forEach(course => {
@@ -238,11 +279,16 @@ function checkConflicts() {
     // Verificar conflictos
     Object.keys(timeMap).forEach(key => {
         if (timeMap[key].length > 1) {
-            hasConflict = true;
-            conflictWarning.textContent += `Conflicto de horario: ${timeMap[key].join(' y ')} en ${key.replace('-', ' ')}\n`;
+            const [day, start] = key.split('-');
+            const uniqueCourses = [...new Set(timeMap[key])];
+            
+            conflicts.push({
+                day: day,
+                time: start,
+                courses: uniqueCourses
+            });
             
             // Resaltar bloques en conflicto
-            const [day, start] = key.split('-');
             const timeIndex = timeSlots.findIndex(slot => slot.split(' - ')[0] === start);
             
             if (timeIndex !== -1) {
@@ -256,11 +302,13 @@ function checkConflicts() {
         }
     });
     
-    if (!hasConflict) {
-        conflictWarning.textContent = 'No hay conflictos de horario';
-        conflictWarning.style.color = 'green';
-    } else {
-        conflictWarning.style.color = 'red';
+    if (conflicts.length > 0) {
+        conflictWarning.classList.add('active');
+        conflictWarning.innerHTML = '<strong>Conflictos de horario detectados:</strong><br>';
+        
+        conflicts.forEach(conflict => {
+            conflictWarning.innerHTML += `- ${conflict.day} ${conflict.time}: ${conflict.courses.join(' / ')}<br>`;
+        });
     }
 }
 
@@ -274,11 +322,10 @@ function createElement(tag, className, text) {
 
 // Obtener clase CSS según el tipo de curso
 function getTypeClass(type) {
-    switch(type.toLowerCase()) {
-        case 'teoría': return 'teoria';
-        case 'laboratorio': return 'laboratorio';
-        case 'taller': return 'taller';
-        case 'simulación': return 'simulacion';
-        default: return 'teoria';
-    }
+    const typeLower = type.toLowerCase();
+    if (typeLower.includes('teoría') || typeLower.includes('teo')) return 'teoria';
+    if (typeLower.includes('laboratorio') || typeLower.includes('lab')) return 'laboratorio';
+    if (typeLower.includes('taller') || typeLower.includes('tal')) return 'taller';
+    if (typeLower.includes('simulación') || typeLower.includes('sim')) return 'simulacion';
+    return 'teoria';
 }
