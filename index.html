@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador de Horarios Universitarios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Planificador de Horarios Universitarios</h1>
+        
+        <!-- Leyenda -->
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color teoria"></div>
+                <span>Teoría</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color laboratorio"></div>
+                <span>Laboratorio</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color taller"></div>
+                <span>Taller</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color simulacion"></div>
+                <span>Simulación</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color conflicto"></div>
+                <span>Conflicto</span>
+            </div>
+        </div>
+        
+        <!-- Panel de cursos disponibles -->
+        <div class="courses-panel">
+            <h2>Cursos Disponibles</h2>
+            <div id="courses-container"></div>
+        </div>
+        
+        <!-- Horario visual -->
+        <div class="schedule">
+            <h2>Horario Semanal</h2>
+            <div class="schedule-grid" id="schedule-grid"></div>
+        </div>
+        
+        <!-- Selección actual -->
+        <div class="current-selection">
+            <h2>Tu Selección Actual</h2>
+            <div id="conflict-warning" class="conflict-warning"></div>
+            <div class="selected-courses" id="selected-courses"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

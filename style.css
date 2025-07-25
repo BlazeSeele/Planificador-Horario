@@ -1,0 +1,208 @@
+:root {
+    --teoria: #4e79a7;
+    --laboratorio: #e15759;
+    --taller: #76b7b2;
+    --simulacion: #f28e2b;
+    --conflicto: #ff0000;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Estilos para el horario */
+.schedule {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    grid-column: 2;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 60px repeat(5, 1fr);
+    gap: 2px;
+}
+
+.time-slot {
+    background-color: #f0f4f8;
+    padding: 8px 5px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.day-header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hour-slot {
+    position: relative;
+    min-height: 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.class-block {
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.class-block.conflict {
+    border: 2px solid var(--conflicto);
+    box-shadow: 0 0 0 2px white, 0 0 0 4px var(--conflicto);
+    z-index: 2;
+}
+
+.teoria { background-color: var(--teoria); }
+.laboratorio { background-color: var(--laboratorio); }
+.taller { background-color: var(--taller); }
+.simulacion { background-color: var(--simulacion); }
+
+/* Panel de cursos */
+.courses-panel {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    grid-column: 1;
+}
+
+.course-card {
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.course-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.course-card.selected {
+    border-left: 4px solid #2ecc71;
+    background: #e8f5e9;
+}
+
+.nrc-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.nrc-option {
+    padding: 5px 10px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.nrc-option.selected {
+    background: #3498db;
+    color: white;
+}
+
+/* Panel de selección actual */
+.current-selection {
+    grid-column: 1 / -1;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.selected-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.selected-course {
+    background: #e3f2fd;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.remove-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conflict-warning {
+    color: var(--conflicto);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.legend {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.legend-color.teoria { background-color: var(--teoria); }
+.legend-color.laboratorio { background-color: var(--laboratorio); }
+.legend-color.taller { background-color: var(--taller); }
+.legend-color.simulacion { background-color: var(--simulacion); }
+.legend-color.conflicto { border: 2px solid var(--conflicto); background-color: white; }
